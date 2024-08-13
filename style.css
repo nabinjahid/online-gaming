@@ -152,6 +152,7 @@ nav{
     background: #FBF7FD;
 }
 .we-are-gamer-main-box{
+    padding-top: 50px;
  display: flex;
  justify-content: space-between;
  
@@ -196,3 +197,83 @@ nav{
     color: #262427;
     opacity: 0.7;
 }
+/* ------------------------------------ */
+/* cart section start heare */
+.cart-sectin{
+    margin-top: 70px;
+}
+.cart-section-hadding{
+    text-align: center;
+}
+.cart-section-hadding h1{
+    font-size: 42px;
+
+    background-image: linear-gradient(0deg, #FF42A5 50%, #4e79ef 100%);
+    color: transparent; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4); 
+}
+.cart-section-hadding h1 span{
+    background-image: linear-gradient(0deg,  #4e79ef 10%, #FF42A5 100%);
+    background-size: cover;
+    background-position: center;  
+    color: transparent; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4); 
+}
+.cart-section-hadding p{
+    color: #77727a;
+    margin-top: 10px;
+}
+
+.cart-container{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.cart{
+    width: 24%;
+}
+.cart-img{
+    position: relative;
+}
+.cart-img img{
+    width: 100%;
+}
+.cart-img:hover{
+    filter: brightness(50%);
+}
+.abosolute-div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+
+.cart:hover .hide{
+    display: flex;
+}
+
+.abosolute-div i{
+    font-size: 32px;
+    color: white;
+}
+.abosolute-div p{
+    font-weight: 700;
+}
+
