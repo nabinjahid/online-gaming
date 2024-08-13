@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+/* common css------------------- */
+body{
+    max-width: 1920px;
+    margin: 0px auto;
+   
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+nav{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.navbar{
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* border: 2px solid red; */
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h1{
+    margin-left: 10px;
+}
+.logo h1 span{
+    font-size: 32px;
+    color: #FF42A5;
+}
+.menu{
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+
+}
+.menu a{
+    text-decoration: none;
+    color: #3d373a;
+    font-weight: 700;
+}
+.menu div{
+    background-color: rgb(217, 220, 222);
+    padding: 8px 3px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #3d373a;
+    font-weight: 700;
+}
+.fa-brands{
+    font-size: 28px;
+    color: re;
+}
