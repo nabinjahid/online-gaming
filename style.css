@@ -65,3 +65,134 @@ nav{
     font-size: 28px;
     color: re;
 }
+.hamberger{
+    display: none;
+}
+/* ------------------------------- */
+/* banner start here */
+.banner{
+    display: flex;  
+    justify-content: space-between;
+
+    /* border: 2px solid red; */
+}
+.left-bar{
+    width: 50%;
+    background-image: url('./resources/Group\ 14.png');
+    background-position: left top; /* Positions the image in the top-left corner */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: 100% 100%; /* Scales the image to cover the entire element */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.right-bar{
+    width: 50%;
+}
+.right-bar img{
+    width: 100%;
+}
+.banner-content{
+    /* border: 2px solid red; */
+    width: 80%;
+    
+   
+}
+.content-title{
+    color: rgb(17, 16, 16);
+    font-size: 34px;
+}
+.shadow-font{
+    font-size: 54px;
+    background-image: linear-gradient(0deg, #FF42A5 50%, #4e79ef 100%);
+    /* background-size: cover; 
+    background-position: center;  */
+    color: transparent; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4); 
+}
+.icon-list{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* border: 2px solid red; */
+    text-align: left;
+    margin-top: 10px;
+}
+.icon-list div{
+    width: 10%;
+    text-align: center;
+    
+}
+.btn{
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    
+}
+.btn-primary{
+    width: 130px;
+    height: 50px;
+    padding: 10px 10px;
+    font-size: 18px;
+    border-radius: 25px;
+    margin-right: 10px;
+    background-color: #FF42A5;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+/* --------------------------------- */
+/* we are gamer section */
+.we-are-gamer-section{
+    background: #FBF7FD;
+}
+.we-are-gamer-main-box{
+ display: flex;
+ justify-content: space-between;
+ 
+}
+.gamer-img-box{
+    width: 50%;
+    /* border: 2px solid red; */
+    text-align: start;
+}
+.gamer-content-box{
+    width: 40%;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.gamer-img-box img{
+    width: 100%;
+}
+.gammer-btn{
+    /* border: 2px solid red; */
+    text-align: end;
+}
+.m-right{
+    margin-right: 0px;
+}
+.gamer-content-box h1{
+    margin-bottom: 10px;
+    font-size: 28px;
+    background-image: linear-gradient(0deg,  #4e79ef 10%, #FF42A5 100%);
+    background-size: cover;
+    background-position: center;  
+    color: transparent; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);  
+}
+.gamer-content-box p{
+    margin-bottom: 20px;
+    color: #262427;
+    opacity: 0.7;
+}
