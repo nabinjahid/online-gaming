@@ -276,4 +276,51 @@ nav{
 .abosolute-div p{
     font-weight: 700;
 }
+/* ------------------------- */
+/* --play sectin start here */
+.play-section{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.play-contant{
+    margin-left: 60px;
+    width: 30%;
+    text-align: end;
+    border: 2px solid red;
+}
+.play-contant h1{
+    font-size: 38px;
+    margin-bottom: 10px; 
+}
+.play-contant h1 span{
+    color: #FF42A5;
+}
+.play-contant p{
+     color: #77727a;;
+}
+.play-img{
+    width: 50%;
+    border: 2px solid rebeccapurple;
+    position: relative;
+    text-align: end;
+}
+.play-img img{
+    width: 80%;
+}
+.play-img .small-img img{
+    width: 100%;
+    height: 100%;
+}
+.small-img{
+    position: absolute;
+    width: 220px;
+    height: 250px;
+    left: 10px;
+    bottom: -30px;
+    border: 2px solid red;
+
+}
+
 
