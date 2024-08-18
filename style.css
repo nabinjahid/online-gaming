@@ -286,9 +286,10 @@ nav{
 }
 .play-contant{
     margin-left: 60px;
+    padding: 5px;
     width: 30%;
     text-align: end;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .play-contant h1{
     font-size: 38px;
@@ -302,7 +303,7 @@ nav{
 }
 .play-img{
     width: 50%;
-    border: 2px solid rebeccapurple;
+    /* border: 2px solid rebeccapurple; */
     position: relative;
     text-align: end;
 }
@@ -319,7 +320,88 @@ nav{
     height: 250px;
     left: 10px;
     bottom: -30px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+
+}
+/* ---------------- same section revers */
+.revers{
+    flex-direction: row-reverse;
+    margin-top: 150px;
+}
+.revers-content{
+    text-align: start;
+}
+
+.revers-img{
+    width: 220px;
+    height: 250px;
+    /* border: 2px solid red; */
+    position: absolute;
+    right: -40px;
+    bottom: -40px;
+}
+.revers-img img{
+    width: 100%;
+}
+/* ------------------ */
+/* cares section start */
+.careers-section{
+    background-color: #FF42A5;
+    margin-top: 200px;
+}
+.carees-main{
+    display: flex;
+}
+
+.careers-contant{
+    width: 44%;
+    margin-top: 50px;
+}
+.careers-hadding-with-des h1{
+    font-size: 48px;
+    color: #FBF7FD;
+    margin-bottom: 20px;
+}
+.careers-hadding-with-des p{
+    color: #FBF7FD;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+.careers-img{
+    width: 55%;
+}
+
+
+.careers-img img{
+    width: 100%;
+    height: 100%;
+}
+.careers-list{
+    display: flex;
+    justify-content: space-between;
+}
+.right-list p, .left-list p{
+    color: #FBF7FD;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.left-list p{
+    text-align: end;
+}
+.carees-btn-box{
+    /* border: 2px solid red; */
+    margin-top: 40px;
+}
+.carees-btn-box button{
+    padding: 15px 30px;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #FF42A5;
 
 }
 
